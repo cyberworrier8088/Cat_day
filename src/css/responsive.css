@@ -1,0 +1,23 @@
+/* mobile */
+@media (max-width: 600px) {
+    nav {
+        gap: 15px;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        font-size: 0.85rem;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    .hero-img {
+        max-width: 240px;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}

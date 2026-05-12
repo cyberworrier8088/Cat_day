@@ -1,0 +1,10 @@
+/* footer */
+footer {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    font-size: 0.85rem;
+    color: var(--light-brown);
+    border-top: 1px solid var(--border);
+    background: rgba(26, 18, 8, 0.85);
+}

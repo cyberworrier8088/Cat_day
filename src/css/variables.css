@@ -1,0 +1,10 @@
+/* colors i used */
+:root {
+    --brown: #1a1208;
+    --gold: #e8a838;
+    --red: #f33629;
+    --white: #fff8ee;
+    --light-brown: #c4a876;
+    --card-bg: rgba(109, 77, 22, 0.35);
+    --border: rgba(232, 168, 56, 0.2);
+}

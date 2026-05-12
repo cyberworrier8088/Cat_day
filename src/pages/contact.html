@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Day - Contact</title>
+
+    <!-- Link all our CSS files -->
+    <link rel="stylesheet" href="../css/reset.css">
+    <link rel="stylesheet" href="../css/variables.css">
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/components.css">
+    <link rel="stylesheet" href="../css/contact.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+
+<body>
+
+    <!-- Navigation menu -->
+    <nav>
+        <a href="../index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html" class="active">Contact</a>
+        <a href="gallery.html">Gallery</a>
+    </nav>
+
+    <!-- Main content -->
+    <main>
+        <h1>Contact Us 📬</h1>
+        <p>Send us a message! We love hearing from cat fans.</p>
+
+        <form class="contact-form" id="contactForm">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" placeholder="e.g. Cat Lover 99" required>
+
+            <label for="email">Your Email</label>
+            <input type="email" id="email" placeholder="e.g. meow@cats.com" required>
+
+            <label for="message">Your Message</label>
+            <textarea id="message" placeholder="Tell us how much you love cats..." required></textarea>
+
+            <button type="submit" class="btn">Send Message 🐾</button>
+        </form>
+    </main>
+
+    <!-- Funny cat popup -->
+    <div class="popup-overlay" id="popup">
+        <div class="popup-box">
+            <img src="../assets/images/funny-cat.png" alt="Funny cat says message sent!">
+            <h2>Meow! Message Sent! 🎉</h2>
+            <p>Our cat team will read it... after their nap 😴</p>
+            <button class="btn" id="closePopup">OK, Cool! 😎</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        Made with ❤️ for cats — 2026
+    </footer>
+
+    <script src="../js/main.js"></script>
+
+</body>
+
+</html>
