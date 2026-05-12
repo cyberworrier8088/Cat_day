@@ -22,6 +22,6 @@ You dont need to install anything. Just go into the `src/pages` folder and doubl
 
 ### Notes
 
-I made this to practice how to organize folders and link files together. If you want to use the code just copy it, I dont mind.
+I made this to practice simple web dev projects. If you want to use the code just copy it, I dont mind.
 
 **Hope you like cats! 🐱**
