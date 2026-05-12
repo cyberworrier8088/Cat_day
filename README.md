@@ -1,60 +1,27 @@
-# Cat Day 🐱
+# Cat Day website
 
-A simple, beginner-friendly website for cat lovers built with HTML, CSS, and JavaScript.
+This is a simple website I made for people who love cats. I used HTML, CSS and some JS. Its good for beginners who want to see how to make a basic site with multiple pages.
 
-## 📁 Project Structure
+### How to run it
 
-```
-cat-day/
-├── src/
-│   ├── css/           # Stylesheets (split into small files)
-│   ├── js/            # JavaScript files
-│   ├── assets/        # Images and media
-│   │   └── images/
-│   └── pages/         # HTML pages
-├── README.md
-└── LICENSE
-```
+You dont need to install anything. Just go into the `src/pages` folder and double click on `index.html`. It should open in your chrome or whatever browser you use.
 
-## 🚀 How to Use
+### The folders
 
-1. **Open the website**: Just open `src/pages/index.html` in your browser
-2. **No setup needed**: Everything works right away
-3. **Navigate**: Use the menu to visit different pages
+* **src/css**: I put the styles here. I split them up so its not one giant file.
+* **src/js**: The javascript for the popup and stuff.
+* **src/assets/images**: All the cat photos are in here.
+* **src/pages**: This is where the actual html files are (index, about, gallery, and contact).
 
-## 📄 Pages
+### What it can do
 
-- **Home** (`index.html`) - Welcome page with cute cat
-- **About** (`about.html`) - Learn about Cat Day
-- **Gallery** (`gallery.html`) - Cat pictures
-- **Contact** (`contact.html`) - Send us a message
+* It works on mobile (responsive).
+* There are some hover effects on the buttons.
+* The contact page has a funny alert popup when you click send.
+* No frameworks like React or anything, just plain code.
 
-## 🎨 Features
+### Notes
 
-- **Responsive design** - Works on phones and computers
-- **Smooth animations** - Fun hover effects and transitions
-- **Contact form** - Send messages with a funny popup
-- **Clean code** - Easy to understand and modify
+I made this to practice how to organize folders and link files together. If you want to use the code just copy it, I dont mind.
 
-## 🛠️ Technologies Used
-
-- **HTML5** - Structure and content
-- **CSS3** - Styling and animations
-- **Vanilla JavaScript** - Interactive features
-- **No frameworks** - Pure web technologies
-
-## 📝 For Beginners
-
-This project is perfect for learning:
-- How to organize web projects
-- CSS file organization
-- Basic JavaScript interactions
-- Responsive design principles
-
-## 🐾 Made With Love
-
-Created for cat fans everywhere! Feel free to copy, modify, and learn from this code.
-
----
-
-*Happy coding! 🐱*
+**Hope you like cats! 🐱**
